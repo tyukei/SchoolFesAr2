@@ -30,6 +30,8 @@ namespace PretiaArCloud.Samples.ShooterSample
         private Button _jumpButton;
         [SerializeField]
         private Button _logoutButton;
+        [SerializeField]
+        private Button _backButton;
 
         private IGameSession _gameSession;
         private Dictionary<Player, ShooterFacade> _ownerToShooterMap 
@@ -135,6 +137,7 @@ namespace PretiaArCloud.Samples.ShooterSample
             _jumpButton.gameObject.SetActive(true);
             _shootButton.gameObject.SetActive(true);
             _logoutButton.gameObject.SetActive(true);
+            _backButton.gameObject.SetActive(false);
             _relocManager.OnRelocalized -= ConnectSession;
         }
 
