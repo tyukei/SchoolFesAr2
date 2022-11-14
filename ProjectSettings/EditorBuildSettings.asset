@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/Pretia SDK/0.7.2/Multiplayer Sample/Scenes/MultiplayerScene.unity
+    path: Assets/Samples/Pretia SDK/0.7.2/Multiplayer Sample/Scenes/Title.unity
+    guid: ede6b9a37a398654f9a89334700ddce2
+  - enabled: 1
+    path: Assets/Samples/Pretia SDK/0.7.2/Multiplayer Sample/Scenes/SelectPlace.unity
+    guid: 71dcc6ae580924540ac79089f7cc0bfb
+  - enabled: 1
+    path: Assets/Samples/Pretia SDK/0.7.2/Multiplayer Sample/Scenes/Main.unity
     guid: 418d5f5bcfa4d4b39b12200b60d9a479
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5acefb46267e8a54290092923581f6a6, type: 2}
