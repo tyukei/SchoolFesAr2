@@ -9,6 +9,14 @@ public class ChangeScene : MonoBehaviour
     // Start is called before the first frame update
     public void TransScene(int index)
     {
-        SceneManager.LoadScene(sceneNames[index]);
+        StartCoroutine("TransSceneCoroutine", index);
+        
     }
+
+    IEnumerator TransSceneCoroutine(int index)
+    {
+        yield return new WaitForSeconds(1f);
+        FadeManager.Instance.LoadScene (sceneNames[index], 2.0f);
+    }
+
 }
