@@ -41,9 +41,9 @@ MonoBehaviour:
       m_GuidLow: 5518768570394489368
       m_GuidHigh: 1183663258843057570
     m_SerializedTextureGuid:
-      m_GuidLow: 0
-      m_GuidHigh: 0
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: 
+      m_GuidLow: 8080587970135954639
+      m_GuidHigh: 4428229527342964571
+    m_Size: {x: 0.25, y: 0.25}
+    m_SpecifySize: 1
+    m_Name: tsukutech
     m_Texture: {fileID: 0}
